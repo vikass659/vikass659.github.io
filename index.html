@@ -3,43 +3,108 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Games by Vikas</title>
-<meta name="description" content="Traditional Indian board games, lovingly rebuilt for your phone.">
-<style>
-  :root{--bg1:#191106;--bg2:#262015;--bg3:#32291b;--gold:#c99712;--ink:#f3e8d8;--dim:#bfae93;--line:#4a3f2c}
-  *{box-sizing:border-box;margin:0}
-  body{font-family:-apple-system,"Segoe UI",Roboto,sans-serif;background:linear-gradient(180deg,var(--bg1),var(--bg2) 45%,var(--bg3));color:var(--ink);min-height:100vh}
-  .wrap{max-width:720px;margin:0 auto;padding:48px 20px 64px}
-  h1{font-size:2.2rem;color:var(--gold);letter-spacing:-.5px}
-  .tag{color:var(--dim);margin-top:8px}
-  .dots{margin:18px 0 34px;display:flex;gap:10px}
-  .dots span{width:13px;height:13px;border-radius:50%;display:inline-block}
-  .card{display:block;background:rgba(243,232,216,.05);border:1px solid var(--line);border-radius:16px;padding:22px;margin:14px 0;text-decoration:none;color:var(--ink)}
-  .card:hover{border-color:var(--gold)}
-  .card h2{font-size:1.25rem}
-  .card p{color:var(--dim);margin-top:6px;font-size:.95rem;line-height:1.5}
-  .badge{display:inline-block;margin-top:12px;font-size:.8rem;color:var(--gold);border:1px solid var(--gold);border-radius:999px;padding:4px 12px}
-  footer{margin-top:48px;color:var(--dim);font-size:.85rem;line-height:1.7}
-  a{color:var(--gold)}
-</style>
+<title>VSN Apps — Games & Apps by Vikas Ninawe</title>
+<meta name="description" content="VSN Apps builds traditional Indian board games and useful everyday apps. Home of Ludo Khel.">
+<link rel="icon" type="image/png" href="/assets/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/site.css">
 </head>
 <body>
-<div class="wrap">
-  <h1>Games by Vikas</h1>
-  <p class="tag">Traditional Indian board games, lovingly rebuilt for your phone.</p>
-  <div class="dots">
-    <span style="background:#177e5b"></span><span style="background:#2b5ba8"></span>
-    <span style="background:#c99712"></span><span style="background:#ae3b50"></span>
-    <span style="background:#6a3fa0"></span>
+<header class="site-head">
+  <div class="wrap">
+    <a class="brand" href="/"><span class="brand-mark" aria-hidden="true">VSN</span>VSN Apps</a>
+    <span class="head-spacer"></span>
+    <a class="head-link" href="mailto:support@vsnapps.com">Contact</a>
   </div>
-  <a class="card" href="/ludokhel/">
-    <h2>Ludo Khel</h2>
-    <p>Five classic Indian board games in one beautiful app — Ludo, Snakes &amp; Ladders, Chaupar, Chowka Bara and Ashta Chamma. 100% offline, no ads, Hindi &amp; English.</p>
-    <span class="badge">Coming soon · Google Play &amp; App Store</span>
-  </a>
-  <footer>
-    Contact: <a href="mailto:support@vsnapps.com">support@vsnapps.com</a>
-  </footer>
-</div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="wrap">
+      <h1>Crafted apps, <em>made to be kept</em>.</h1>
+      <p>VSN Apps is the studio of Vikas Ninawe — traditional Indian board
+      games rebuilt with care today, useful everyday apps tomorrow. Offline
+      where possible, respectful always: no ads, no tracking.</p>
+      <div class="seat-dots" aria-hidden="true">
+        <span style="background:var(--seat-g)"></span>
+        <span style="background:var(--seat-b)"></span>
+        <span style="background:var(--seat-y)"></span>
+        <span style="background:var(--seat-r)"></span>
+        <span style="background:var(--seat-p)"></span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="games-h">
+    <div class="wrap">
+      <h2 id="games-h">Games</h2>
+      <div class="tiles">
+        <a class="tile" href="/ludokhel/">
+          <div class="tile-top">
+            <img class="tile-icon" src="/assets/ludokhel/icon.png" alt="" width="64" height="64">
+            <div>
+              <h3>Ludo Khel</h3>
+              <span class="kind">Five classic Indian board games</span>
+            </div>
+          </div>
+          <p>Ludo, Snakes &amp; Ladders, Chaupar, Chowka Bara and Ashta
+          Chamma — authentic rules, three handcrafted board palettes,
+          real 3D dice, pasa and cowries. Hindi &amp; English.</p>
+          <div class="chips">
+            <span class="chip gold">Coming soon</span>
+            <span class="chip">Android</span>
+            <span class="chip">iOS</span>
+            <span class="chip">100% offline</span>
+          </div>
+        </a>
+        <div class="tile soon">
+          <div class="tile-top">
+            <div class="tile-icon placeholder" aria-hidden="true">✦</div>
+            <div>
+              <h3>Next game</h3>
+              <span class="kind">In the workshop</span>
+            </div>
+          </div>
+          <p>More traditional games are being lovingly restored. Check back
+          soon — or write to us with the game you miss most.</p>
+          <div class="chips"><span class="chip">In development</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="apps-h">
+    <div class="wrap">
+      <h2 id="apps-h">Everyday apps</h2>
+      <div class="tiles">
+        <div class="tile soon">
+          <div class="tile-top">
+            <div class="tile-icon placeholder" aria-hidden="true">◳</div>
+            <div>
+              <h3>First app on the bench</h3>
+              <span class="kind">Announcing later</span>
+            </div>
+          </div>
+          <p>The same care, pointed at daily life. Our first non-game app
+          will appear here when it is ready.</p>
+          <div class="chips"><span class="chip">In development</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-foot">
+  <div class="wrap">
+    <p>© 2026 VSN Apps · Vikas Ninawe</p>
+    <span class="foot-spacer"></span>
+    <nav aria-label="Footer">
+      <a href="/ludokhel/privacy/">Ludo Khel privacy</a>
+      <a href="mailto:support@vsnapps.com">Contact</a>
+    </nav>
+  </div>
+</footer>
 </body>
 </html>
